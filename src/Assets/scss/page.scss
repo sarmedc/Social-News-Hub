@@ -1,0 +1,37 @@
+.news{
+	margin-left:25%;
+	padding:1px 16px;
+
+	ol{
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+	}
+}
+
+h1{
+	margin-top: 3%;
+	font-size: 20px;
+}
+
+.card{
+	margin: 20px;
+	padding: 5px;		
+
+	.title{
+		font-size: 14px;		
+	}
+
+	label, .comments{
+		font-size: 12px;
+		opacity: 0.5;
+	}
+
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	a:hover{
+		color: grey;
+	}
+}

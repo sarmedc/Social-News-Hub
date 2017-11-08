@@ -11,6 +11,8 @@ import Hackernews from './components/pages/hackerNews';
 import GithubTrending from './components/pages/githubTrending';
 import Medium from './components/pages/medium';
 
+import './Assets/css/default.min.css';
+
 class App extends Component {
   render() {
     return (

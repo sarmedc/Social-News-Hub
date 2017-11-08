@@ -12,7 +12,8 @@
     "react": "^16.0.0",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^16.0.0",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "trending-github": "^1.0.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
