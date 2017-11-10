@@ -16,7 +16,6 @@ class Medium extends Component{
 	componentDidMount(){
 		axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/topic/popular/').then(res => {			
 			const posts = res.data.items.map(obj => obj);
-			console.log(res.data.items)
 			this.setState({posts:posts});
 		});
 	}

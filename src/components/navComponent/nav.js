@@ -11,12 +11,13 @@ class Nav extends Component{
 			<header>
 				<nav>									
 					<ul className="navList">						
-						<li>
+						<li className="logo">
 							<img src={require("../../Assets/img/news_icon.png")} alt=""/>	
 						</li>
 						<li>
 							<h4>Social News Hub</h4>							
-						</li>
+						</li>						
+						<div className="divLink">
 						<hr/>
 						<li className="Link">
 							<Link to="/Reddit">Reddit</Link>
@@ -31,6 +32,7 @@ class Nav extends Component{
 							<Link to="/Medium">Medium</Link>
 						</li>
 						<hr/>
+						</div>						
 						<li>
 							<h5 className="copy">&copy;Sarmed Chaudhry</h5>
 						</li>

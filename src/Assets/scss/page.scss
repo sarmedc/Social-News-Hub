@@ -35,3 +35,26 @@ h1{
 		color: grey;
 	}
 }
+
+@media screen and (max-width: 800px) {
+	.news{
+		margin: 15% 0% 0% 0%;
+
+	}
+
+	.title{
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.news{
+		margin: 20% 0% 0% 0%;
+
+	}
+
+	h1{
+		display: none;
+	}
+}
